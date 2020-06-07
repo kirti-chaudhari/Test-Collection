@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-	"api-tests-sample": "newman run test/\Test.postman_collection.json -e test\test-123.postman_environment.json --reporters cli,junit,html --reporter-junit-export newman\myreport.xml" --reporter-html-export newman\yHTMLreport.html"  },
+	"api-tests-sample": "newman run test\\Test.postman_collection.json -e test\test-123.postman_environment.json --reporters cli,junit,html --reporter-junit-export newman\myreport.xml" --reporter-html-export newman\yHTMLreport.html"  },
   "author": "",
   "dependencies": {
     "newman": "^5.0.1"
